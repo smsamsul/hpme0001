@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.dm_sans{
+    font-family: 'DM Sans', sans-serif;
+}
+.Bold{
+    font-weight: 700;
+}
+.Regular{
+    font-weight: 400;
+}
+.auto{
+    font-weight: 300;
+}
+
+.font_14{
+    font-size: 14px;
+}
+
+.font_20{
+    font-size: 20px;
+}
+
+.font_16{
+    font-size: 16px;
+}
+
+.font_39{
+    font-size: 39px;
+}
+
+.font_40{
+    font-size: 40px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.flex{
+    display: flex;
+    
+}
+.btn_one{
+    padding: 16px 59px;
+background-color: #262626;
+color: #ffff;
+margin-top: 49px;
+}
+.btn_two{
+    padding: 9px 30px;
+    background-color: #262626;
+    color: #ffff;
+    margin: 20px 20px;
+}
+.black{
+    color: #767676;
+}
+
+/* common css end */
+/* nav start */
+nav .nav_main{
+    padding: 32px 0;
+    background-color: #ffff;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.nav_item {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .nav_item ul{
+    display: flex;
+    column-gap: 40px;
+}
+
+nav .nav_item ul li{
+    color: #767676;
+}
+
+nav .nav_main label{
+    display: none;
+}
+nav .nav_main input{
+    display: none;
+}
+/* nav end */
+/* shop start */
+.shop{
+    background-color: #F5F5F3;
+    
+}
+.shop .shop_main{
+    padding: 25px 0;
+}
+.shop .shop_main .shop_text{
+    column-gap: 10px;
+    align-items: center;
+    width: 25%;
+}
+
+
+.shop .shop_main .inputt{
+    
+    position: relative;
+}
+
+.shop .shop_main .inputt i{
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.shop .shop_main .inputt input{
+    padding: 16px 21px;
+    width: 601px;
+    margin: 0 auto;
+}
+
+.shop .shop_main .icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 5px;
+    width: 25%;
+}
+.shop .shop_main .icon i:last-child{
+    padding-left: 10px;
+}
+/* shop end */
+/* banner start */
+
+.banner{
+    background: url(../images/slider-1\ 1.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.banner img{
+    position: absolute;
+    left: 90px;
+    top: 218px;
+}
+.banner .banner_main p{
+    padding-top: 49px;
+}
+.banner .banner_main {
+    width: 340px;
+    padding-left: 111px;
+    padding-top: 147px;
+    padding-bottom: 182px;
+}
+
+.banner .banner_main a{
+    padding: 16px 59px;
+    background-color: #262626;
+    color: #ffff;
+    margin-top: 49px;
+}
+/* banner end */
+/* warrenty start */
+.warrenty{
+    background-color: #F0F0F0;
+    margin-bottom: 140px;
+}
+.warrenty .warrenty_main{
+    justify-content: space-between;
+    padding: 22px 0;
+    
+}
+
+.warrenty .warrenty_main .item{
+    width: 33%;
+    text-align: center;
+}
+
+.warrenty .warrenty_main .item p span{
+    padding-left: 10px;
+}
+
+.warrenty .warrenty_main .start{
+    text-align: start;
+}
+.warrenty .warrenty_main .end{
+    text-align: end;
+}
+/* warrenty end */
+/* discount start */
+.discount{
+    margin-bottom: 128px;
+}
+.discount .discount_main {
+    column-gap: 40px;
+}
+.discount .discount_main  .left{
+    width: 45%;
+    background: url(../images/dis1.png) no-repeat center;
+    background-size: cover;
+
+}
+
+.discount .discount_main  .left .text{
+    width: 286px;
+    padding-top: 470px;
+    padding-left: 64px;
+    
+}
+
+.discount .discount_main  .right{
+   width: 50%;
+   flex-direction: column;
+   row-gap: 40px;
+   display: flex;
+   position: relative;
+  
+}
+
+.discount .discount_main  .right .text{
+    position: absolute;
+    left: 50px;
+    top:66px;
+    width: 313px;
+
+}
+
+.discount .discount_main  .right .text p{
+    padding-top: 36px;
+}
+
+.discount .discount_main  .right img{
+    width: 100%;
+  
+}   
+
+
+.discount .discount_main  .right .item{
+    width: 100%;
+    position: relative;
+    
+}
+
+/* .discount .discount_main  .right .item img{
+    width: 100%;
+} */
+
+.discount .discount_main  .right .item .text{
+    position: absolute;
+    left: 66px;
+    top: 50px;
+    width: 315px;
+}
+
+/* discount end */
+/* arrival start */
+.arrival{
+    margin-bottom: 130px;
+}
+.arrival .arrival_main{
+    justify-content: space-between;
+}
+.arrival .arival_heding h2{
+    margin-bottom: 48px;
+}
+
+.arrival .arrival_main .item{
+    width: 23%;
+    position: relative;
+   
+}
+
+.arrival .arrival_main .item img{
+    width: 100%;
+}
+
+.arrival .arrival_main .item a{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.arrival .arrival_main .item .text {
+	position: absolute;
+	right: 0;
+	top: 60%;
+    transform: translateY(-50%);
+	width: 100%;
+    background-color: #F5F5F5;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s; 
+    
+}
+
+
+.arrival .arrival_main .item .text p{
+    text-align: end;
+    padding-top: 21px;
+    color: #767676;
+}
+
+
+.arrival .arrival_main .item .text h3{
+    padding-top: 21px;
+    padding-bottom: 26px;
+    padding-bottom: 26px;
+    text-align: end;
+    color: #262626;
+}
+
+.arrival .arrival_main .item .flex{
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.arrival .arrival_main .item p{
+    padding-top: 15px;
+}
+
+.arrival .arrival_main .item:hover .text{
+visibility: visible;
+opacity: 1;
+top: 60%;
+} 
+
+/* arrival end */
+/* watch start */
+
+.watch{
+    margin-bottom: 50px;
+}
+.watch .watch_main{
+    background-color: #F3F3F3;
+    column-gap: 49px;
+}
+
+.watch .watch_main .item_img{
+    width: 50%;
+}
+
+.watch .watch_main .item_img img{
+    width: 100%;
+}
+
+.watch .watch_main .text{
+    width: 50%;
+    padding: 60px 0;
+    
+}
+
+.watch .watch_main .text p{
+    width: 511px;
+    padding-top: 38px;
+}
+
+/* watch end */
+/* footer start */
+.footer{
+
+    background-color: #F5F5F3;
+}
+.footer .footer_main .item{
+   width: 20%; 
+   padding: 52PX 0;
+}
+
+.footer .footer_main .item ul{
+    padding-top: 17px;
+}
+
+.footer .footer_main .item ul li{
+    padding-top: 7px;
+}
+.footer .footer_main .item  p{
+    width: 282px;
+    padding-top: 15px;
+}
+
+
+.footer .footer_main .item img{
+    text-align: end;
+}
+.footer .footer_main .item i{
+    padding-top: 65px;
+    padding-left: 10px;
+   
+}
+.footer .footer_main .itema{
+text-align: end;
+padding-top: 55px;
+}
+
+.footer .footer_main .itema p{
+    width: 400px;
+    padding-top: 211px;
+}
+/* footer end */

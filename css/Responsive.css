@@ -1,0 +1,312 @@
+@media(min-width:320px) and (max-width:769px){
+
+    .container {
+        max-width: 100%;
+        padding:  0 15px;
+        
+    }
+    nav{
+        position: relative;
+    }
+    nav .flex{
+        flex-direction: column;
+    
+    }
+    nav .nav_main .logo{
+        width: 100%;
+    }
+    nav .nav_item {
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 10px;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        height: 0;
+        box-sizing: border-box;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 1;
+        background-color: #F0F0F0;
+        transition: 0.4s;
+    }
+
+    nav .nav_main input:checked ~ .nav_item{
+        height:150px;
+        opacity: 1;
+        visibility: visible;
+    }
+    nav .nav_item ul {
+        flex-direction: column;
+        row-gap: 7px;
+    }
+
+    nav .nav_main label {
+        display: block;
+        position: absolute;
+        right: 42px;
+        top: 23px;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .shop .shop_main .shop_text {
+        
+        width: 100%;
+    }
+    .shop .shop_main .inputt input {
+        width: auto;
+        
+    }
+    .shop .shop_main .icon {
+    
+        width: 100%;
+    }
+    
+    .shop .shop_main .shop_text p{
+        display: none;
+    }
+    .banner {
+        
+        background: #f0f0f0;
+    }
+    .banner .banner_main {
+        width: auto;
+        padding-left: 111px;
+        padding-top: 22px;
+        padding-bottom: 66px;
+    }
+    .banner img {
+        position: absolute;
+        left: 54px;
+        top: 80px;
+    }
+    .warrenty .warrenty_main .item {
+        width: 100%;
+        
+    }
+
+    .discount  .flex{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .discount .discount_main .left {
+        width: 100%;
+        
+    }
+    .discount .discount_main .left .text {
+        width: auto;
+    
+    }
+    .discount .discount_main .right {
+        width: 100%;
+        
+    }
+    .discount .discount_main .right .text {
+    
+        width: auto;
+        top: 2px;
+    }
+    .discount .discount_main .right .item .text {
+    
+        width: auto;
+        top: 0;
+    }
+    .discount .discount_main .right .text .btn_one {
+        
+        margin-top: 11px;
+    }
+    .discount .discount_main .right .text p {
+        padding-top: 0;
+        font-size: 14px;
+    }
+    .warrenty {
+    
+        margin-bottom: 25px;
+    }
+    .arrival .flex {
+    flex-direction: column;
+    }
+    .arrival .arrival_main .item {
+        width: 100%;
+        
+    }
+    .discount {
+        margin-bottom: 10px;
+    }
+
+    .watch .watch_main {
+        flex-direction: column;
+    }
+    .watch .watch_main .item_img {
+        width: 100%;
+    }
+    .watch .watch_main .text {
+        width: 100%;
+        padding: 60px 20px;
+        
+    }
+    .watch .watch_main .text p {
+        width: auto;
+        font-size: 14px;
+    }
+    .arrival {
+        margin-bottom: 41px;
+    }
+
+    .footer .footer_main{
+        flex-direction: column;
+    }
+
+    .footer .footer_main .item {
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+    
+    }
+    .footer .footer_main .itema {
+        text-align: center;
+        padding-top: 26px;
+    
+    }
+    .footer .footer_main .item p {
+        width: auto;
+        
+    }
+    .footer .footer_main .itema p {
+        width: auto;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+    .footer .footer_main .item i {
+        padding-top: 21px;
+    
+    }
+    .footer .footer_main .item ul {
+        padding-top: 8px;
+    }
+
+   
+
+    :root {
+        overflow-x: hidden;
+    }
+
+    }
+     
+
+
+@media(min-width:416px) and (max-width:776px){
+
+    nav .nav_main label {
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 22px;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+
+}
+.arrival .flex {
+	flex-direction: revert;
+	column-gap: 15px;
+}
+.arrival .arrival_main .item:hover .text {
+	top: 47%;
+}
+
+.arrival .arrival_main .item a {
+	position: absolute;
+	left: -17px;
+	top: -19px;
+}
+.footer .footer_main{
+    flex-direction: revert;
+} 
+
+.footer .footer_main .item {
+	text-align: start;
+    width: 25%;
+	
+}
+.footer .footer_main .itema {
+	text-align: start;
+	margin-left: 32px;
+} 
+
+.arrival .arrival_main .item .text h3 {
+	padding-top: 0;
+	padding-bottom: 0;
+
+}
+.arrival .arrival_main .item .text p {
+
+	padding-top: 0;
+	
+}
+
+:root {
+    overflow-x: hidden;
+}
+
+}
+@media(min-width:777px) and (max-width:1399px){
+
+    nav .nav_main {
+        padding: 32px 10px;
+        
+    }
+nav .logo {
+	width: 100%;
+
+}
+
+.nav_item {
+	width: 100%;
+	justify-content: flex-end;
+}
+.discount .discount_main .right .text {
+	top: 12px;
+	
+}
+.discount .discount_main .right .item .text {
+	top: 8px;
+}
+.discount .discount_main .left .text {
+	width: auto;
+	padding-top: 323px;
+	margin-bottom: -116px;
+}
+.arrival .arrival_main .item {
+	margin: 0 auto;
+}
+.footer .footer_main .item {
+	text-align: center;
+}
+.footer .footer_main .itema {
+	text-align: center;
+	
+}
+.footer .footer_main .item p {
+	width: auto;
+
+}
+.footer .footer_main .itema p {
+	width: auto;
+	
+}
+
+.arrival .arrival_main .item:hover .text {
+	top: 40%;
+}
+.btn_one {
+	margin-top: 8px;
+}
+:root {
+    overflow-x: hidden;
+}
+
+}
